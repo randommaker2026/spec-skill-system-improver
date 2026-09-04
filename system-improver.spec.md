@@ -17,4 +17,4 @@
 ## 3. For human only. Ignore if you are AI
 初次使用时，将下面的提示词丢给你的AI：
 
-- 根据 @02-[spec]-knowledge-humanzone/9999-system-improver/system-improver.spec.md，在 `10-[artifact]-skills/9999-system-improver/SKILL.md` 生成对应的初始技能（作为衍生交付物），然后软连接到你的默认技能目录，作为一个新的“improve-system” skill 存在。
+- 根据 @02-[spec]-knowledge-humanzone/9999-system-improver/system-improver.spec.md，在 `10-[artifact]-skills/9999-system-improver/SKILL.md` 生成对应的初始技能（作为衍生交付物），然后软连接到你**在本项目中**的默认技能目录（没有则创建），作为一个新的“improve-system” skill 存在。
