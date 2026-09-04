@@ -12,7 +12,7 @@
 1. **意图解析**：扫描 `02-[spec]-knowledge-humanzone/` 下的所有内容，提取人类显式声明的约束和断言。
 2. **现状审计**：检查项目内衍生交付物（代码、测试、配置等）是否与提取出的约束存在偏差（Drift）。
 3. **收敛修复**：针对偏差，执行严格忠实于 `02-[spec]-knowledge-humanzone/` 下内容的修复，使之收敛。
-4. **建议提炼（可选）**：若发现未受管的高频重复模式或野生资产，仅把建议输出为.md文档并保存至 `90-worklog/suggestions-for-humanzone-update/`下，严禁私自修改 `02-[spec]-knowledge-humanzone/`。
+4. **建议提炼（可选）**：若发现未受管的高频重复模式或野生资产，仅把建议**用中文**输出为.md文档并保存至 `90-worklog/suggestions-for-humanzone-update/`下，严禁私自修改 `02-[spec]-knowledge-humanzone/`。
 
 ## 3. For human only. Ignore if you are AI
 初次使用时，将下面的提示词丢给你的AI：
