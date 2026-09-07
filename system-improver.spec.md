@@ -1,6 +1,10 @@
 # Spec: System Improver (Genesis v0.1)
 
-## 1. 系统本原定义（First Principles）
+## 0. 术语（Terminology）
+- **主要交付物（Primary Artifact）**：由人类负责维护（LLM未经授权禁止修改，但可自由提出优化建议）的、承载人类意图的所有内容，位于 `02-[spec]-knowledge-humanzone/` 目录。
+- **衍生交付物（Derived Artifact）**：由 LLM （尽力）忠实于 `02-[spec]-knowledge-humanzone`中的 spec，产出的各项文档、代码、数据、报告、项目等内容。
+
+## 1. 第一性原理（First Principles）
 - **地位隔离**：
   - `02-[spec]-knowledge-humanzone/**` 为人类意图空间（主要交付物），对AI系统是**绝对只读（Read-Only）**，除非人类明确要求AI修改其中内容。
   - 项目中的代码、配置、技能、文档等均为衍生交付物（Derived Artifacts）。
@@ -17,4 +21,4 @@
 ## 3. For human only. Ignore if you are AI
 初次使用时，将下面的提示词丢给你的AI：
 
-- 根据 @02-[spec]-knowledge-humanzone/9999-system-improver/system-improver.spec.md，在 `10-[artifact]-skills/9999-system-improver/SKILL.md` 生成对应的初始技能（作为衍生交付物），然后软连接到你**在本项目中**的默认技能目录（没有则创建），作为一个新的“improve-system” skill 存在。
+- 根据 @02-[spec]-knowledge-humanzone/9999-system-improver/system-improver.spec.md，在 `10-[artifact]-skills/9999-system-improver/SKILL.md` 生成或更新对应的技能（作为衍生交付物），然后软连接到你**在本项目中**的默认技能目录（没有则创建），作为一个新的“improve-system” skill 存在。
